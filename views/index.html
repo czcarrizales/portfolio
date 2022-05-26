@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +9,90 @@
     <link rel="stylesheet" href="../styles/styles.css">
     <script src="../js/main.js" defer></script>
 </head>
+
 <body>
-    <h1>Portfolio</h1>
+    <div class="home" id="home">
+        <h1>Chazz Carrizales. The weirdo full-stack web developer.</h1>
+        <a href="#nav">Work Below</a>
+    </div>
+    <nav id="nav">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+    </nav>
+    <div class="content">
+        <div class="about" id="about">
+            <h2>About</h2>
+            <div class="about-container">
+                <div class="about-left">
+                    <p>Specializing in front-end design, I'm a full stack web developer who has worked with JavaScript, Angular,
+                        and more. Whether collaborating with others, or going off on my own self-teachings, I strive to learn
+                        anything with an open mind. When I'm away from my computer, I love to spend time with friends, listen to
+                        new music, and nap all my worries away.</p>
+                </div>
+                <div class="about-right">
+                    <img src="../img/logos/javascript.png" alt="">
+                    <img src="../img/logos/html5.png" alt="">
+                    <img src="../img/logos/mongodb.png" alt="">
+                    <img src="../img/logos/nodejs.png" alt="">
+                    <img src="../img/logos/angular.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="projects" id="projects">
+            <h2>Projects</h2>
+            <div class="project-container">
+                <div class="project-container-left">
+                    <h3>Rock, Paper, Scissors App</h3>
+                    <p>Your typical Rock, Paper, Scissors game with a Street Fighter-esque theme. I was in charge of visual
+                        and audio design of the app. Created in tandem with Bryce Jackson, and Gichelle Amon.</p>
+                    <a href="https://the-elementals-rps.herokuapp.com/" target="_blank">View App</a>
+                </div>
+                <div class="project-container-right">
+                    <img src="../img/rps.png" alt="">
+                </div>
+            </div>
+            <div class="project-container">
+                <div class="project-container-left">
+                    <img src="../img/recipe.png" alt="">
+    
+                </div>
+                <div class="project-container-right">
+                    <h3>Recipe App</h3>
+                    <p>App that allows users to create, edit, and view their own recipes. I was in charge of bug-fixing, and
+                        guiding newer developers in creating the app. Created in tandem with Eddie Moreno, Misael Bolainez,
+                        Tsion Gebrehiwot, and Saba Abera.</p>
+                </div>
+            </div>
+            <div class="project-container">
+                <div class="project-container-left">
+                    <h3>Magic 8-Ball App</h3>
+                    <p>Self-made app that allows users to input a question and recieve a random answer. It was the final
+                        project for the Websites for Beginners class taught by Bitwise.</p>
+                    <a href="https://czcarrizales.github.io/js-final/" target="_blank">View App</a>
+                </div>
+                <div class="project-container-right">
+                    <img src="../img/magic.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="contact" id="contact">
+            <h2>Contact</h2>
+            <form>
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Email">
+                <input type="text" placeholder="Message">
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <footer>
+            <div class="footer-container">
+                <div class="footer-left"><a href="https://github.com/czcarrizales" target="_blank">Github</a></div>
+                <div class="footer-right"><p>Chazz Carrizales 2022</p></div>
+            </div>
+        </footer>
+    </div>
 </body>
+
 </html>
