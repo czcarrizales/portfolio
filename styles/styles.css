@@ -35,7 +35,7 @@ nav li {
     font-size: 30px;
 }
 
-.about h2 {
+h2 {
     text-align: center;
     font-size: 50px;
 }
@@ -45,4 +45,31 @@ nav li {
     margin-left: 200px;
     margin-right: 200px;
     font-size: 25px;
+}
+
+.project-container {
+    display: flex;
+    background-color: red;
+    text-align: center;
+    border: solid 5px black;
+    height: 200px;
+    font-size: 25px;
+}
+
+.project-container-left {
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-container-right {
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
 }
