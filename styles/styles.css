@@ -10,10 +10,14 @@ body {
 }
 
 .home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
     font-size: 50px;
     margin-left: 500px;
     margin-right: 500px;
+    height: 970px;
 }
 
 .home p {
@@ -49,7 +53,6 @@ h2 {
 
 .project-container {
     display: flex;
-    background-color: red;
     text-align: center;
     border: solid 5px black;
     height: 200px;
@@ -59,7 +62,7 @@ h2 {
 .project-container-left {
     display: flex;
     flex-direction: column;
-    background-color: blue;
+    background-color: rgb(85, 85, 85);
     width: 50%;
     justify-content: center;
     align-items: center;
@@ -68,7 +71,7 @@ h2 {
 .project-container-right {
     display: flex;
     flex-direction: column;
-    background-color: green;
+    background-color: rgb(145, 145, 145);
     width: 50%;
     justify-content: center;
     align-items: center;
@@ -83,4 +86,13 @@ form {
 
 input {
     width: 300px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(56, 56, 56);
+    height: 80px;
+    margin-top: 50px;
 }
