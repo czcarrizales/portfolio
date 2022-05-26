@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Condensed&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     height: 100%;
     width: 100%;
@@ -20,9 +25,10 @@ body {
     height: 970px;
 }
 
-.home p {
+.home a {
     font-size: 35px;
     color: red;
+    text-decoration: none;
 }
 
 nav {
@@ -55,17 +61,28 @@ h2 {
     display: flex;
     text-align: center;
     border: solid 5px black;
-    height: 200px;
+    height: 300px;
     font-size: 25px;
+}
+
+.project-container a {
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: red;
 }
 
 .project-container-left {
     display: flex;
     flex-direction: column;
-    background-color: rgb(85, 85, 85);
+    background-color: rgb(48, 48, 48);
     width: 50%;
     justify-content: center;
     align-items: center;
+}
+
+.project-container-left p {
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .project-container-right {
